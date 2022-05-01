@@ -191,7 +191,7 @@
     }
     
     .footer {
-        top: 710px;
+        top: 750px;
     }
     
     .main {
@@ -246,6 +246,7 @@
         position: relative;
         width: 80%;
         margin: 0 10%;
+        padding: 0 10% 10%;
         top: 20%;
         left: 0;
         
@@ -255,20 +256,26 @@
     
 
 @media screen and (max-width:767px) {
+    
     .background {
         background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp);
         top: 50px;
     }
     
     .main {
-        top: 350px;
-        padding: 10%;
-        margin-left: 5%;
-        margin-right: auto;
+        top: 300px;
+        width: 100%;
+        padding-left: 0;
     }
 
     .main_title {
         font-size: 25px;
+        right: 0;
+    }
+    
+    .main_points {
+        margin-top: 7%;
+        right: 0;
     }
     
     .main_links {
@@ -281,16 +288,24 @@
         font-size: 16px;
         text-align: center;
         position: relative;
-        top: 150px;
         padding: 25px 35px;
+        width: 80%;
         background-color: #F79214;
         border-radius: 40px;
         color: #fff;
+        margin-top: 15%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    
+    .cautions {
+        width: 80%;
+        left: 0;
+        margin: 0 10%;
     }
     
     .footer {
-        top: 1030px;
-        height: 500px;
+        display: none;
     }
     
     .introvideo {
@@ -299,10 +314,11 @@
     
     .video_smartphone {
         position: relative;
-        top: 300px;
         height: auto;
-        width: 80%;
-        margin: 0 10%;
+        top: 150px;
+        width: 100%;
+        padding: 5%;
+        background-color: #F79214;
     }
     
     .footer_sentence {
@@ -312,8 +328,10 @@
     .smartphone_sentence {        
         position: relative;
         color: #fff;
-        top: 300px;
-        
+        padding: 5%;
+        width: 100%;
+        top: 145px;
+        background-color: #F79214;
     }
     
     .smartphone_title {
@@ -322,6 +340,7 @@
     font-weight: bold;
     position: relative;
     white-space: nowrap;
+    padding-bottom: 2%;
         
     }
     
@@ -330,7 +349,8 @@
     overflow-wrap: normal;
     font-size: 16px;
     line-height: 20px;
-    width: 100%;
+    width: 90%;
+    padding-bottom: 2%;
         
     }
     .smartphone_link {
@@ -341,8 +361,16 @@
   }
   
 @media screen and (min-width:768px) {
+    .link_smartphone {
+        display: none;
+    }
+    
+    .smartphone_sentence {
+        display: none;
+    }
+    
     .video_smartphone {
-    display: none;
+        display: none;
     }
 }
   
